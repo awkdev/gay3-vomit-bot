@@ -1,0 +1,28 @@
+{
+  "name": "gay3-vomit-bot",
+  "version": "4.2.0",
+  "description": "Let's puke on Gay3's garbage posts",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "start": "tsc && node dist/index.js"
+  },
+  "browser": {
+    "fs": false
+  },
+  "license": "WTFPL",
+  "devDependencies": {
+    "@babel/core": "^7.12.13",
+    "@babel/plugin-proposal-class-properties": "^7.12.13",
+    "@babel/preset-env": "^7.12.16",
+    "@types/prompts": "^2.0.14",
+    "babel-loader": "^8.2.2",
+    "prettier": "2.3.1",
+    "prompts": "^2.4.2",
+    "telegram": "^2.10.7",
+    "ts-loader": "^8.0.16",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {}
+}
